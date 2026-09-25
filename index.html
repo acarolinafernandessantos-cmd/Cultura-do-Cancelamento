@@ -1,363 +1,175 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Excesso de Opinião vs Escassez de Empatia</title>
-
-    <link rel="stylesheet" href="css/style.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfólio | Thalita Sergio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,500;0,600;0,700;1,500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&family=Playfair+Display:ital,wght@0,600;0,700;0,900;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/styles.css">
 </head>
-
 <body>
 
-<div id="progress"></div>
+<!-- ===================== CABEÇALHO / MASTHEAD ===================== -->
+<header class="masthead">
+  <div class="container top-bar">
+    <span class="top-bar__item">Ano I</span>
+    <span class="top-bar__item top-bar__item--center">Portfólio Acadêmico</span>
+    <span class="top-bar__item" id="dateline">— de — de —</span>
+  </div>
 
-<header class="topo">
+  <div class="container nameplate">
+    <h1 class="nameplate__title">Thalita Sergio</h1>
+    <p class="nameplate__subtitle">Portifólio de Jornalismo — Edição Nº 01</p>
+  </div>
 
-    <div class="container">
+  <div class="rule rule--double"></div>
 
-        <span class="categoria">
-            TRABALHO ACADÊMICO
-        </span>
-
-        <h1>
-            Excesso de Opinião
-            <span>vs</span>
-            Escassez de Empatia
-        </h1>
-
-        <p>
-            Cultura do Cancelamento e seus Impactos Sociais
-        </p>
-
-        <small>
-            Autora: <strong>Thalita Sergio</strong>
-        </small>
-
-    </div>
-
+  <nav class="container nav">
+    <ul>
+      <li><a href="#inicio" class="nav__link">Início</a></li>
+      <li><a href="#sobre" class="nav__link">Sobre</a></li>
+      <li><a href="#trabalhos" class="nav__link">Trabalhos</a></li>
+      <li><a href="#projeto" class="nav__link">Projeto em Destaque</a></li>
+      <li><a href="#contato" class="nav__link">Contato</a></li>
+    </ul>
+  </nav>
 </header>
 
-<nav>
+<main>
 
-    <a href="#introducao">Introdução</a>
+  <!-- ===================== INÍCIO — MATÉRIA DE ABERTURA ===================== -->
+  <section id="inicio" class="section lead-story">
+    <div class="container">
+      <p class="eyebrow">Perfil</p>
+      <h2 class="headline headline--xl">Comunicação, apuração e histórias<br>que merecem ser contadas.</h2>
+      <p class="byline">Por Thalita Sergio</p>
 
-    <a href="#tribunal">Tribunal da Internet</a>
+      <div class="lead-story__body">
+        <p class="drop-cap">
+          Estudante de Jornalismo apaixonada por comunicação e literatura, produção de conteúdo e desenvolvimento
+          de projetos acadêmicos e profissionais. Este espaço reúne artigos, trabalhos, projetos e
+          apresentações produzidos ao longo da graduação — em constante atualização à medida que
+          novas reportagens, experiências e conquistas se somam à trajetória.
+        </p>
+        <aside class="pull-quote">
+          <p>“Contar bem uma história é, antes de tudo, um ato de responsabilidade com quem escuta.”</p>
+        </aside>
+      </div>
 
-    <a href="#dados">Dados</a>
-
-    <a href="#consequencias">Consequências</a>
-
-    <a href="#relatos">Relatos</a>
-
-    <a href="#reflexao">Reflexão</a>
-
-</nav>
-
-<section class="banner">
-
-    <div class="container banner-grid">
-
-        <div>
-
-            <span class="tag">
-                RESPONSABILIZAÇÃO × EMPATIA
-            </span>
-
-            <h2>
-
-                Até que ponto a busca por responsabilização pode ultrapassar os limites da empatia?
-
-            </h2>
-
-            <p>
-
-                A internet aproximou pessoas, democratizou vozes e fortaleceu movimentos sociais.
-                Porém, também criou um ambiente em que julgamentos acontecem em poucos minutos,
-                muitas vezes antes da apuração completa dos fatos.
-
-            </p>
-
-        </div>
-
-        <div>
-
-            <img src="img/hero.jpg" alt="Redes sociais">
-
-        </div>
-
+      <a href="#trabalhos" class="continued-link">Ver trabalhos completos →</a>
     </div>
+  </section>
 
-</section>
+  <div class="rule"></div>
 
-<main class="container">
-
-<section id="introducao" class="fade">
-
-<div class="duas-colunas">
-
-<div>
-
-<h2 class="titulo">
-
-Introdução
-
-</h2>
-
-<p>
-
-A cultura do cancelamento consiste na mobilização coletiva para reprovar publicamente pessoas ou organizações por atitudes consideradas inadequadas.
-
-</p>
-
-<p>
-
-Embora possa representar uma forma de responsabilização social, também desperta discussões sobre julgamentos precipitados, linchamentos virtuais e impactos psicológicos.
-
-</p>
-
-<p>
-
-A velocidade das redes sociais faz com que uma informação se espalhe em poucos minutos, tornando a opinião pública extremamente influente.
-
-</p>
-
-</div>
-
-<div>
-
-<img src="img/celular.jpg" alt="Pessoa utilizando redes sociais">
-
-</div>
-
-</div>
-
-</section>
-
-<section id="tribunal" class="fade">
-
-<h2 class="titulo">
-
-O Tribunal da Internet
-
-</h2>
-
-<div class="tribunal-grid">
-
-<div class="card">
-
-<p>
-
-Na Justiça, toda acusação passa por investigação, produção de provas e direito à defesa.
-
-</p>
-
-<p>
-
-Na internet, entretanto, milhões de pessoas podem julgar alguém em questão de horas.
-
-</p>
-
-<p>
-
-Esse julgamento coletivo pode gerar perda de empregos, contratos, seguidores e causar danos emocionais profundos.
-
-</p>
-
-</div>
-
-<aside class="destaque">
-
-<h3>
-
-Caso em destaque
-
-</h3>
-
-<h4>
-
-Bruna Marquezine
-
-</h4>
-
-<p>
-
-A atriz enfrentou diversas ondas de críticas relacionadas à sua aparência física, mostrando como características pessoais podem se tornar alvo de julgamentos nas redes sociais.
-
-</p>
-
-</aside>
-
-</div>
-
-</section>
-<section id="dados" class="fade">
-
-    <h2 class="titulo">
-        Dados e Estatísticas
-    </h2>
-
-    <div class="estatisticas">
-
-        <div class="stat">
-            <h3>41%</h3>
-            <span>Geração Z</span>
-            <p>utiliza as redes sociais como principal ferramenta de busca.</p>
+  <!-- ===================== SOBRE ===================== -->
+  <section id="sobre" class="section">
+    <div class="container about-grid">
+      <div class="about-grid__text">
+        <p class="eyebrow">Página 02 — Perfil</p>
+        <h2 class="headline">Sobre a autora</h2>
+        <div class="columns">
+          <p>
+            Espaço destinado à apresentação da trajetória acadêmica, experiências, artigos, projetos
+            e produções desenvolvidas ao longo da graduação em Jornalismo.
+          </p>
+          <p>
+            Ao longo do curso, o interesse por apuração, entrevista e produção de conteúdo tem guiado
+            a construção de um portfólio que combina rigor jornalístico com um olhar autoral para a
+            comunicação contemporânea.
+          </p>
         </div>
+      </div>
 
-        <div class="stat">
-            <h3>46%</h3>
-            <span>Pessoas canceladas</span>
-            <p>são homens brancos heterossexuais.</p>
-        </div>
-
-        <div class="stat">
-            <h3>28%</h3>
-            <span>Mulheres</span>
-            <p>heterossexuais representam parte significativa dos casos.</p>
-        </div>
-
-        <div class="stat">
-            <h3>67%</h3>
-            <span>Brasileiros</span>
-            <p>concordam total ou parcialmente com o cancelamento em determinadas situações.</p>
-        </div>
-
+      <aside class="fact-box">
+        <h3 class="fact-box__title">Ficha técnica</h3>
+        <dl>
+          <dt>Formação</dt>
+          <dd>Jornalismo — em curso</dd>
+          <dt>Área de interesse</dt>
+          <dd>Entrevista, reportagem e produção de conteúdo</dd>
+          <dt>Contato</dt>
+          <dd>thalit5asergio18@gmail.com</dd>
+        </dl>
+      </aside>
     </div>
+  </section>
 
-</section>
+  <div class="rule"></div>
 
-<section id="consequencias" class="fade">
+  <!-- ===================== TRABALHOS (CADERNO) ===================== -->
+  <section id="trabalhos" class="section">
+    <div class="container">
+      <p class="eyebrow">Caderno de Trabalhos</p>
+      <h2 class="headline">Trabalhos e produções</h2>
+      <p class="section-note">Cada matéria abaixo é clicável e leva ao trabalho na íntegra.</p>
 
-    <h2 class="titulo">
-        Consequências
-    </h2>
-
-    <div class="timeline">
-
-        <div class="evento">
-            <div class="bola"></div>
-            <div class="conteudo">
-                <h3>Publicação</h3>
-                <p>Uma fala, vídeo ou postagem começa a circular nas redes sociais.</p>
-            </div>
-        </div>
-
-        <div class="evento">
-            <div class="bola"></div>
-            <div class="conteudo">
-                <h3>Viralização</h3>
-                <p>Compartilhamentos aumentam rapidamente e milhares de pessoas passam a comentar.</p>
-            </div>
-        </div>
-
-        <div class="evento">
-            <div class="bola"></div>
-            <div class="conteudo">
-                <h3>Cancelamento</h3>
-                <p>A pessoa passa a sofrer críticas, ataques e pressão pública.</p>
-            </div>
-        </div>
-
-        <div class="evento">
-            <div class="bola"></div>
-            <div class="conteudo">
-                <h3>Impactos</h3>
-                <p>Perda de oportunidades, danos emocionais, ansiedade, isolamento e prejuízos à reputação.</p>
-            </div>
-        </div>
-
+      <!-- Os cartões são gerados a partir de js/script.js — veja o array "projetos"
+           para adicionar, editar ou remover trabalhos sem mexer neste HTML. -->
+      <div class="clippings" id="clippings-grid"></div>
     </div>
+  </section>
 
-</section>
+  <div class="rule"></div>
 
-<section id="relatos" class="fade">
+  <!-- ===================== PROJETO EM DESTAQUE (COM VÍDEO) ===================== -->
+  <section id="projeto" class="section feature">
+    <div class="container feature-grid">
+      <div class="feature-grid__text">
+        <p class="eyebrow">Reportagem Especial</p>
+        <h2 class="headline">Projeto em destaque</h2>
+        <p class="section-note">
+          Substitua este parágrafo pela descrição do projeto: contexto, objetivo, metodologia e
+          principais resultados.
+        </p>
+      </div>
 
-    <h2 class="titulo">
-        Relatos
-    </h2>
+      <figure class="video-frame">
+        <!--
+          Para inserir o vídeo real, troque a div .video-frame__placeholder
+          por um iframe, por exemplo:
 
-    <div class="slider">
-
-        <button onclick="anterior()">❮</button>
-
-        <div class="relato">
-
-            <span>Relato Anônimo</span>
-
-            <p id="textoRelato">
-                "Vi uma pessoa perder oportunidades profissionais após um comentário antigo voltar à tona."
-            </p>
-
+          <iframe class="video-frame__embed"
+                  src="https://www.youtube.com/embed/SEU_ID_AQUI"
+                  title="Vídeo do projeto"
+                  allowfullscreen></iframe>
+        -->
+        <div class="video-frame__placeholder">
+          <span class="video-frame__play" aria-hidden="true">▶</span>
+          <span>Espaço reservado para o vídeo do projeto</span>
         </div>
-
-        <button onclick="proximo()">❯</button>
-
+        <figcaption>Legenda — breve descrição do vídeo e créditos, se houver.</figcaption>
+      </figure>
     </div>
-
-</section>
-
-<section id="reflexao" class="fade">
-
-    <div class="reflexao">
-
-        <h2>
-            Antes de comentar...
-        </h2>
-
-        <blockquote>
-
-            "Você conhece a história completa?<br><br>
-
-            Você conhece a dor daquela pessoa?<br><br>
-
-            A internet não apaga a humanidade de ninguém.<br><br>
-
-            Por trás de cada perfil existe uma pessoa."
-
-        </blockquote>
-
-    </div>
-
-</section>
+  </section>
 
 </main>
 
-<footer>
-
-    <div class="container">
-
-        <h3>
-            Excesso de Opinião vs Escassez de Empatia
-        </h3>
-
-        <p>
-            Trabalho Acadêmico • Cultura do Cancelamento
-        </p>
-
-        <p>
-            Autora: Thalita Sergio
-        </p>
-
-        <p>
-            © 2026
-        </p>
-
+<!-- ===================== RODAPÉ / COLOFÃO ===================== -->
+<footer id="contato" class="colophon">
+  <div class="rule rule--double"></div>
+  <div class="container colophon__grid">
+    <div>
+       <h2>Portfólio de Jornalismo</h2>
+      <h3 class="nameplate__title nameplate__title--small">Thalita Sergio</h3>
     </div>
-
+    <div>
+      <h4>Contato</h4>
+      <p>thalit5asergio18@gmail.com</p>
+    </div>
+    <div>
+      <h4>Redes</h4>
+      <p><a href="#">@tha.litasergio</a> · <a href="#">LinkedIn</a></p>
+    </div>
+  </div>
+  <div class="container">
+    <p class="fine-print">&copy; 2026 Ana Carolina Fernandes Santos. Todos os direitos reservados.</p>
+  </div>
 </footer>
 
-<script src="java/script.js"></script>
-
+<script src="js/script.js"></script>
 </body>
 </html>
